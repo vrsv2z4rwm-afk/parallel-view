@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PARALLEL VIEW</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a href="#top" class="site-title">PARALLEL VIEW</a>
+  <nav>
+    <a href="#about">ABOUT</a>
+    <a href="#fieldwork">FIELDWORK</a>
+    <a href="#video">VIDEO</a>
+    <a href="#timeline">TIMELINE</a>
+    <a href="#thought">THOUGHT</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <p class="eyebrow">5つの認知を辿る</p>
+  <h1>PARALLEL<br>VIEW</h1>
+  <p class="hero-sub">私たちは、世界をどう認知しているのか。</p>
+  <a href="#about" class="scroll-link">SCROLL ↓</a>
+</section>
+
+<section id="about" class="section about-section">
+  <div class="section-inner">
+    <p class="section-label">ABOUT</p>
+
+    <div class="about-text">
+      <p>
+        私達５人は、この後期のグループワークを通じて、人間の認知こそが地球をつくっていると考えた。
+      </p>
+
+      <p>
+        この地球という環境には、膨大な数の情報が存在しており、人間は日々の生活の中で、それらを無意識的に捉え、認知することで地球を作り上げている。
+      </p>
+
+      <p>
+        また同じ情報を知覚していても、個人の経験や知識、視点、環境の違いによって、人それぞれで物の捉え方は異なり、作られる地球像も人それぞれ異なるものになっている。私たちはこのような点に、面白さを感じた。
+      </p>
+
+      <p>
+        そこから ...
+      </p>
+
+      <ol>
+        <li>知覚した情報は、個々人の経験や知識と結びつき認知される</li>
+        <li>その上で人それぞれ認知しているものは違っている</li>
+      </ol>
+
+      <p>
+        この二つをリサーチやフィールドワークの柱として捉え、５人での活動を進めていった。
+      </p>
+
+      <p>
+        フィールドワークでは猿島に向かった。猿島では五人が範囲を決めて、それぞれ動画に取りながら、声で気がついたこと、感じたことをそれぞれ記録した。
+      </p>
+
+      <p>
+        その中で、地球とは、外側に存在する知覚できる世界ではあるが、私たちそれぞれの認識の中で、各個人の中にも多様に地球がある。つまり地球を見る目がさまざま存在することがわかった。
+      </p>
+
+      <p>
+        本作品では、映像・発言のタイムライン・発言から辿った認知プロセスを通して、それぞれの「見ている世界」を記録する。
+      </p>
+      <div class="about-members">
+  MEMBERS　長谷川　初田　原田　尾関　森久</p>
+</div>
+    </div>
+  </div>
+</section>
+
+<section id="fieldwork" class="section">
+  <div class="section-heading"><span>02</span><h2>FIELDWORK</h2></div>
+  <p class="section-lead">5人で猿島を歩き、それぞれが目に留まったものや感じたことを記録した。</p>
+  <div class="fieldwork-grid">
+    <div class="map-wrap"><img src="sarushima-map.jpg" alt="猿島のマップ"></div>
+    <div class="photos">
+      <img src="photo01.jpg" alt="猿島での記録 01">
+      <img src="photo02.jpg" alt="猿島での記録 02">
+      <img src="photo03.jpg" alt="猿島での記録 03">
+      <img src="photo04.png" alt="猿島での記録 04">
+      <img src="photo05.JPG" alt="猿島での記録 05">
+    </div>
+  </div>
+</section>
+
+<section id="video" class="section">
+  <div class="section-heading"><span>03</span><h2>VIDEO</h2></div>
+  <p class="section-lead">猿島を歩きながら、それぞれが見つけたものや感じたことを記録した映像。</p>
+  <div class="youtube-wrap">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IVD3A1bngQQ?si=hkVLB2HNnwxa1MNX&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <p class="video-note">47 min / Fieldwork record</p>
+</section>
+
+<section id="timeline" class="section">
+  <div class="section-heading"><span>04</span><h2>TIMELINE</h2></div>
+  <p class="section-lead">5人が映像の中で発した言葉を時間軸に沿って並べ、それぞれの視点の違いを俯瞰する。</p>
+  <div class="timeline-viewer">
+    <div class="timeline-controls">
+      <button id="timelineMinus">−</button>
+      <span id="timelineScale">100%</span>
+      <button id="timelinePlus">＋</button>
+      <button id="timelineReset">全体表示</button>
+    </div>
+    <div class="timeline-window"><img id="timelineImage" src="timeline.jpg" alt="発言のタイムライン"></div>
+  </div>
+</section>
+
+<section id="thought" class="section">
+  <div class="section-heading"><span>05</span><h2>THOUGHT</h2></div>
+  <p class="section-lead">映像の中から15の発言を取り上げ、その言葉に至るまでの認知プロセスを樹形図として辿る。</p>
+
+  <div class="thought-viewer">
+    <button class="slide-button" id="thoughtPrev">←</button>
+    <div class="thought-card">
+      <div class="thought-image-wrap"><img id="thoughtImage" src="tree_01.png" alt="樹形図 01"></div>
+      <div class="thought-info">
+        <p id="thoughtNumber" class="thought-number"></p>
+        <p id="thoughtPerson" class="thought-person"></p>
+        <p id="thoughtQuote" class="thought-quote"></p>
+      </div>
+    </div>
+    <button class="slide-button" id="thoughtNext">→</button>
+  </div>
+  <div class="thought-dots" id="thoughtDots"></div>
+  <p class="image-note">樹形図をクリックすると拡大して表示できます。</p>
+</section>
+</main>
+
+<footer><p>PARALLEL VIEW</p><p>5つの認知を辿る</p></footer>
+
+<div class="lightbox" id="lightbox">
+  <button id="lightboxClose">×</button>
+  <img id="lightboxImage" src="" alt="">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
